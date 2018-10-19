@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "bankName": "Bank One",
+    "loanNumber": "102030",
+    "loanAmount": 5000,
+    "partialPaymentMade": 2300,
+    "openingDate": "October 24 2018",
+    "dueDate": "Novermber 18 2018",
+    "project": "Project 54",
+    "details": "Lent for person"
+  },
+  {
+    "id": 1,
+    "bankName": "Bank One",
+    "loanNumber": "102030",
+    "loanAmount": 5000,
+    "partialPaymentMade": 2300,
+    "openingDate": "October 24 2018",
+    "dueDate": "Novermber 18 2018",
+    "project": "Project 54",
+    "details": "Lent for person"
+  },
+  {
+    "id": 1,
+    "bankName": "Bank One",
+    "loanNumber": "102030",
+    "loanAmount": 5000,
+    "partialPaymentMade": 2300,
+    "openingDate": "October 24 2018",
+    "dueDate": "Novermber 18 2018",
+    "project": "Project 54",
+    "details": "Lent for person"
+  },
+  {
+    "id": 1,
+    "bankName": "Bank One",
+    "loanNumber": "102030",
+    "loanAmount": 5000,
+    "partialPaymentMade": 2300,
+    "openingDate": "October 24 2018",
+    "dueDate": "Novermber 18 2018",
+    "project": "Project 54",
+    "details": "Lent for person"
+  },
+  {
+    "id": 1,
+    "bankName": "Bank One",
+    "loanNumber": "102030",
+    "loanAmount": 5000,
+    "partialPaymentMade": 2300,
+    "openingDate": "October 24 2018",
+    "dueDate": "Novermber 18 2018",
+    "project": "Project 54",
+    "details": "Lent for person"
+  }
+]
