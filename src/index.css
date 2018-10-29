@@ -6,7 +6,7 @@
   font-weight: bold;
 }
 
-body {
+body, #root {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
@@ -201,4 +201,38 @@ code {
 .ant-table-row-level-0,
 .ant-table-thead {
   font-size: 0.71rem;
+}
+
+.cover {
+  height: 100%;
+  width: 100%;
+}
+
+.ant-row,
+.auth-wrapper {
+  height: 100%;
+}
+
+.auth-wrapper {
+  background: url('https://res.cloudinary.com/proton/image/upload/v1540802015/account-a-bank-account-34204_micvpj.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.auth-wrapper:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right,#0b0b0b,rgb(90, 90, 90));
+  opacity: .6;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
