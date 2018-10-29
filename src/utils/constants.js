@@ -1,0 +1,9 @@
+// auth - signup types
+export const AUTH_SIGNUP_SUCCESS = 'AUTH_SIGNUP_SUCCESS';
+export const AUTH_SIGNUP_PENDING = 'AUTH_SIGNUP_PENDING';
+export const AUTH_SIGNUP_FAILURE = 'AUTH_SIGNUP_FAILURE';
+
+// auth - signin types
+export const AUTH_SIGNIN_SUCCESS = 'AUTH_SIGNIN_SUCCESS';
+export const AUTH_SIGNIN_PENDING = 'AUTH_SIGNIN_PENDING';
+export const AUTH_SIGNIN_FAILURE = 'AUTH_SIGNIN_FAILURE';
