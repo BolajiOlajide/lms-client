@@ -1,14 +1,12 @@
 import React, { PureComponent } from 'react';
 
 import Button from './Button.component';
-import Info from '../svg/Info.svg';
 import MenuLink from './MenuLink.component';
 
 
 class Sidebar extends PureComponent {
   renderLogo = () => (
     <section className="logo-section">
-      <img src={Info} alt="lms-logo" />
       <span className="logo-text">Logo</span>
     </section>
   );

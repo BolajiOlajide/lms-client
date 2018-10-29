@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: 'Exo', 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   font-weight: bold;
@@ -36,7 +36,7 @@ code {
 
 .sidebar-container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: #FFF;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   display: grid;
@@ -55,6 +55,7 @@ code {
   margin: 0 1.2rem 0.4rem 1.2rem;
   outline: 0;
   cursor: pointer;
+  height: 100%;
 }
 
 .logo-section {
@@ -68,8 +69,8 @@ code {
 }
 
 .logo-text {
-  font-size: 1.2rem;
-  color: #babbda;
+  font-size: 2rem;
+  color: #0b0b0b;
 }
 
 .menu-link {
@@ -83,7 +84,7 @@ code {
   display: flex;
   align-items: center;
   cursor: pointer;
-  color: #babbda;
+  color: #c7c9df;
   font-weight: bold;
 }
 
@@ -99,10 +100,12 @@ code {
 
 .main-container {
   display: grid;
-  grid-template-rows: 1fr 12fr;
+  grid-template-rows: 1fr 18fr;
+  height: 100vh;
+  max-height: 100vh;
 }
 
-.header {
+.lms-header {
   background: #FFF;
   box-shadow: 0 4px 9px 0 rgba(0,0,0,0.1);
   display: flex;
@@ -113,7 +116,7 @@ code {
 }
 
 .ant-avatar {
-  border: 1px solid #babbda;
+  border: 1px solid #c7c9df;
   border-radius: 100%;
   padding: 0.5rem;
 }
@@ -121,7 +124,8 @@ code {
 .filter-section {
   display: flex;
   align-items: center;
-  color: #babbda;
+  color: #c7c9df;
+  padding: 1rem;
 }
 
 .filter-section > span {
@@ -142,14 +146,14 @@ code {
   align-items: center;
   justify-content: flex-end;
   border-radius: 4rem;
-  border: 1px solid #babbda;
+  border: 1px solid #c7c9df;
   padding: 0.4rem;
   box-sizing: border-box;
   width: 14rem;
 }
 
 .filter-section > .ant-input-search > .ant-input-suffix {
-  color: #babbda;
+  color: #c7c9df;
   margin-right: 1rem;
   cursor: pointer;
 }
@@ -157,23 +161,27 @@ code {
 .filter-section > .ant-input-search > input[type="text"] {
   outline: 0;
   border: 0;
-  color: #babbda;
+  color: #c7c9df;
   width: 80%;
+}
+
+.avatar-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .avatar-section > span {
   margin-right: 0.5rem;
   vertical-align: 0%;
-  color: #babbda;
+  color: #c7c9df;
 }
 
 .loandetails-container {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  border-radius: 2rem;
   margin: 2rem;
-  border: 1px solid #babbda;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+  grid-gap: 2rem;
 }
 
 .loanlist-container,
@@ -181,5 +189,16 @@ code {
   padding: 1rem;
   height: 100%;
   width: 100%;
-  border: 1px solid red
+  border-radius: 0.5rem;
+  background: #FFF;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+}
+
+.loanlist-container > p {
+  color: #c7c9df;
+}
+
+.ant-table-row-level-0,
+.ant-table-thead {
+  font-size: 0.71rem;
 }

@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import LoanPage from './pages/Loan.page';
 import * as serviceWorker from './serviceWorker';
 
+// styles
+import 'antd/dist/antd.css';
 import './index.css';
 
 ReactDOM.render(<LoanPage />, document.getElementById('root'));

@@ -10,7 +10,7 @@ const Search = Input.Search;
 
 const Header = () => {
   return (
-    <nav className="header">
+    <nav className="lms-header">
       <section className="filter-section">
         <Search />
         <span>Filter Search</span>
@@ -19,10 +19,10 @@ const Header = () => {
 
       <section className="avatar-section">
         <span>Alonso</span>
-        <Avatar
+        {/* <Avatar
           size={64}
           icon="user" alt="user-image"
-        />
+        /> */}
       </section>
     </nav>
   );
